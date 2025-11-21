@@ -1,1 +1,21 @@
-/* Add CSS Styling */
+.odd {
+    background-color: hsl(0, 100%, 85%);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.header {
+    font-size: 24px;
+}
+
+#title {
+    color: hsl(230, 100%, 50%);
+    font-size: 36px;
+}
+
+#subtitle {
+    background-color: hsl(120, 100%, 80%);
+
+    /* could've re-used header class */
+    font-size: 24px;
+    font-weight: bold;
+}
