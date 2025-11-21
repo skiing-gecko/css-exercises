@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+.btn-primary,
+.btn-secondary {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.btn-primary {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 1000%);
+}
+
+.btn-secondary {
+    background-color: hsl(60, 100%, 50%);
+}
